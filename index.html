@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="form-group">
+        <h1>Calculator</h1>
+        <form>
+            Value 1:<input type="text" id="value1">
+            Value 2:<input type="text" id="value2">
+            Operator:
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="min">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiply</option>
+            </select>
+            <button type="button" onclick="calc()">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+
+
+</body>
+
+
+
+
+
+
+<script src="main.js"></script>
+
+</html>
